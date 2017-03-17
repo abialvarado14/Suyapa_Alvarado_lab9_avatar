@@ -14,18 +14,18 @@ class Bender{
 
 	public:
 		Bender(int,int,int,int,string);
-		virtual int getHP();
-		//virtual string getNombre();
-		virtual int getFuerza();
-		virtual int getDefensa();
-		virtual int getNivel();
-		virtual void setHP(int hp);
-		virtual void setNombre(string name);
-		virtual void setFuerza(int NFuerza);
-		virtual void setDefensa(int defense);
-		virtual void setNivel(int luck);
-		virtual void AtaqueNormal(Bender*);
-		virtual void AtaqueEspecial(Bender*);
+		int getHP();
+		//string getNombre();
+		int getFuerza();
+		int getDefensa();
+		int getNivel();
+		void setHP(int hp);
+		void setNombre(string name);
+		void setFuerza(int NFuerza);
+		void setDefensa(int defense);
+		void setNivel(int luck);
+		virtual void AtaqueNormal(Bender*) = 0;
+		virtual void AtaqueEspecial(Bender*) = 0;
 
 };
 

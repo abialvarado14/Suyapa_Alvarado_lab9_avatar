@@ -53,14 +53,3 @@ void Bender::setDefensa(int defense){
 void Bender::setNivel(int luck){
 	nivel_suerte = luck;
 }
-
-void Bender::AtaqueEspecial(Bender*){
-
-}
-
-void Bender::AtaqueNormal(Bender*){
-
-}
-
-
-
