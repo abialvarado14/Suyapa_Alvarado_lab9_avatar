@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <typeinfo>
 #ifndef BENDER_H
 #define BENDER_H
 using namespace std;

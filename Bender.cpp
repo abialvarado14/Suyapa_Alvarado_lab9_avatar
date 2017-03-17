@@ -1,6 +1,7 @@
 #include "Bender.h"
 #include <string>
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 Bender::Bender(int salud, int force, int defense, int lvl, string name){

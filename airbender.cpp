@@ -1,4 +1,5 @@
 #include "airbender.h"
+#include "firebender.h"
 using namespace std;
 #include <string>
 
@@ -13,5 +14,10 @@ void airbender::ataqueNormal(Bender* enemig){
 }
 
 void airbender::ataqueEspecial(Bender* enemi){
+	if (typeid(*enemi)==typeid(firebender)){
+		enemi->setHP(enemi->getHP()-(this->getFuerza()+(this->getFuerza()*0.25)));
+	}else{
+		enemi->setHP(enemi->getHP()-this->getFuerza());
+	}
 
 }
