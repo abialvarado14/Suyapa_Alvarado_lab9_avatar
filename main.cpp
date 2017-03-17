@@ -12,6 +12,10 @@ int main(){
 	int opc;
 	cout << "Que desea hacer? 1.Agregar \n2.Jugar";
 	cin >>opc;
-	
+	if (op==1){//AGREGAR
+
+	}else{
+		
+	}
 	return 0;
 }
