@@ -9,7 +9,7 @@ airbender::airbender(int salud, int force, int defense, int lvl, string name) : 
 }
 
 void airbender::ataqueNormal(Bender* enemig){
-
+	enemig->setHP(enemig->getHP()-this->getFuerza());
 }
 
 void airbender::ataqueEspecial(Bender* enemi){
