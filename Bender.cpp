@@ -18,6 +18,10 @@ int Bender::getHP(){
 	return HP;
 }
 
+/*string getNombre(){
+	return nombre;
+}*/
+
 int Bender::getFuerza(){
 	return fuerza;
 }
@@ -44,6 +48,10 @@ void Bender::setFuerza(int NFuerza){
 
 void Bender::setDefensa(int defense){
 	defensa = defense;
+}
+
+void Bender::setNivel(int luck){
+	nivel_suerte = luck;
 }
 
 void Bender::AtaqueEspecial(Bender*){

@@ -1,15 +1,14 @@
 #include "Bender.h"
 #include <string>
-#ifndef AIRBENDER_H
-#define AIRBENDER_H
+#ifndef EARTHBENDER_H
+#define EARTHBENDER_H
 using namespace std;
 
-class airbender : public Bender{
+class earthbender : public Bender{
 	public:
-
-		airbender(int, int, int, int, string);
+		earthbender(int, int, int, int, string);
 		virtual void ataqueNormal(Bender*);
 		virtual void ataqueEspecial(Bender*);
 
 };
-#endif 
+#endif

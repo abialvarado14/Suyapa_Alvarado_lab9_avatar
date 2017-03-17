@@ -15,7 +15,7 @@ class Bender{
 	public:
 		Bender(int,int,int,int,string);
 		virtual int getHP();
-		virtual string getNombre();
+		//virtual string getNombre();
 		virtual int getFuerza();
 		virtual int getDefensa();
 		virtual int getNivel();
